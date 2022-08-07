@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class MMD2UnityToolMenu
 {
-    [MenuItem("Assets/MMD2UnityTool/Export Fbx(With Anim) To Humanoid Fbx")]
+    [MenuItem("Assets/MMD-UnityTool/Export Fbx(With Anim) To Humanoid Fbx")]
     public static void SpliteMMDFbxMotionToHumainMotionFbx()
     {
         var selected = Selection.activeObject;
@@ -23,7 +23,7 @@ public static class MMD2UnityToolMenu
         }
     }
 
-    [MenuItem("Assets/MMD2UnityTool/Export Camera Vmd To Anim")]
+    [MenuItem("Assets/MMD-UnityTool/Export Camera Vmd To Anim")]
     public static void ExportCameraVmdToAnim()
     {
         var selected = Selection.activeObject;
@@ -39,5 +39,6 @@ public static class MMD2UnityToolMenu
             Debug.LogError("没有选中文件");
         }
     }
+
 
 }
