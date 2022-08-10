@@ -42,9 +42,9 @@ public class AutoShader : EditorWindow
     
         //@materialPath = GUILayout.TextArea(null);
         if (GUILayout.Button("开始执行")) {
-            Debug.Log("开始生成...");
+            Debug.Log("开始转换...");
             translate(shader1, materialPath);
-            Debug.Log("生成结束");
+            Debug.Log("转换结束");
             AssetDatabase.Refresh();
         }
     }
